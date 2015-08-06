@@ -1,0 +1,31 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SamplePlayer.WP8.PlayerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mmppf="clr-namespace:Microsoft.PlayerFramework;assembly=Microsoft.PlayerFramework"
+    xmlns:smmedia="clr-namespace:SM.Media.MediaPlayer;assembly=SM.Media.MediaPlayer.WP8"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False" OrientationChanged="PhoneApplicationPage_OrientationChanged">
+
+    <!--LayoutRoot は、すべてのページ コンテンツが配置されるルート グリッドです-->
+    <Grid x:Name="LayoutRoot"
+          Background="Transparent">
+        <StackPanel Orientation="Vertical">
+            <mmppf:MediaPlayer x:Name="Player" Volume="1" VerticalAlignment="Top" IsSkipAheadVisible="False" IsSkipBackVisible="False" IsSeekEnabled="False" IsSkipBackEnabled="False" IsSkipAheadEnabled="False" IsSkipNextEnabled="False" IsSkipPreviousEnabled="False" IsSlowMotionEnabled="False" IsScrubbingEnabled="False" SeekWhileScrubbing="False" IsDurationVisible="False" IsTimelineVisible="False">
+                <mmppf:MediaPlayer.Plugins>
+                    <smmedia:StreamingMediaPlugin />
+                </mmppf:MediaPlayer.Plugins>
+            </mmppf:MediaPlayer>
+            <phone:WebBrowser x:Name="SocialStream" VerticalAlignment="Bottom" IsScriptEnabled="True" Navigated="SocialStream_Navigated" LoadCompleted="SocialStream_LoadCompleted" />
+        </StackPanel>
+    </Grid>
+    
+</phone:PhoneApplicationPage>
