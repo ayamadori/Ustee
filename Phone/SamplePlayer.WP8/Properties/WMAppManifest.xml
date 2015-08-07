@@ -18,12 +18,17 @@
         <TemplateFlip>
           <SmallImageURI IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</BackgroundImageURI>
-          <Title></Title>
-          <BackContent></BackContent>
-          <BackBackgroundImageURI IsRelative="true" IsResource="false"></BackBackgroundImageURI>
-          <BackTitle></BackTitle>
-          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Media-Play-02.png</BackgroundImageURI>
+          <Title>
+          </Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false">
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
           <HasLarge>false</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
