@@ -30,7 +30,7 @@
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>adb41202</NuGetPackageImportStamp>
     <TargetFrameworkProfile />
-    <DefaultLanguage>ja-JP</DefaultLanguage>
+    <DefaultLanguage>en-US</DefaultLanguage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -129,14 +129,11 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\Logo.png" />
-    <Content Include="Assets\Media-Play-02.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\SquareTile150x150.png" />
     <Content Include="Assets\SquareTile71x71.png" />
     <Content Include="Assets\StoreLogo.png" />
-    <Content Include="Assets\WideLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
