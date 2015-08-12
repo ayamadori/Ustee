@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{2d377ffd-dfb4-4767-b8c2-f87d0c453a9e}" Title="Ustee" RuntimeType="Silverlight" Version="0.8.0.0" Genre="apps.normal" Author="ayamadori" Description="A simple and unofficial Ustream live viewer." Publisher="ayamadori" PublisherID="{9ab7e729-8ff7-426c-a2ac-1297721cb00c}">
+  <App xmlns="" ProductID="{2d377ffd-dfb4-4767-b8c2-f87d0c453a9e}" Title="Ustee" RuntimeType="Silverlight" Version="0.8.0.1" Genre="apps.normal" Author="ayamadori" Description="A simple and unofficial Ustream live viewer." Publisher="ayamadori" PublisherID="{9ab7e729-8ff7-426c-a2ac-1297721cb00c}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

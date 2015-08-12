@@ -121,7 +121,7 @@ namespace SamplePlayer.WP8
         private async void LaunchReview()
         {
             // Launch the URI
-            string appid = "8e3f11ec-9950-4ddc-8586-bcb8d9347a50";
+            string appid = "515b7fe5-9046-4adf-8be1-29f29683b63d";
             var success = await Windows.System.Launcher.LaunchUriAsync(new Uri("zune:reviewapp?appid=app" + appid));
 
             if (success)
