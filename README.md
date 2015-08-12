@@ -35,7 +35,7 @@ License
 The MIT License (MIT)  
 http://opensource.org/licenses/mit-license.php
 
-Latest version
+Version history
 ------------------
 * v0.8.0  
   Initial release
